@@ -1,10 +1,3 @@
-'''
-Code sample for CoronaSafe Fellowship
-Python application implementing a todo app
-Submitted by: Vani Gupta
-Time taken: 6-7 hours (approx.)
-'''
-
 import sys
 import os.path
 from datetime import datetime
