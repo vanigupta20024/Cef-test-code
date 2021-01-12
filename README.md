@@ -1,14 +1,11 @@
-# CoronaSafe Engineering Fellowship Test Problem
+# CEF Test Problem
 
-Thanks for applying to the CoronaSafe Engineering fellowship!
+Implement a command-line (CLI) program that lets you manage your todos.
 
-In this step we want to see how you implement a command-line (CLI) program that lets you manage your todos.
-
-The specification for this problem is written down as tests. Since we haven’t actually implemented anything, the tests are currently failing. You have to solve the problem by implementing the application and getting all the tests to pass.
+The specification for this problem is written down as tests. You have to solve the problem by implementing the application and getting all the tests to pass.
 
 Here's how it should work when you're done:
 
-[![Todo-CLI](https://res.cloudinary.com/sv-co/image/upload/v1607935139/fullstack-CEF/Todo-CLI/play-video-demo_fp50wp.png)](https://vimeo.com/490621534)
 ## Getting started
 
 1. Install Python: Python is usually installed by default on most modern systems. To check what your currently have, open a terminal and run the following command:
@@ -82,16 +79,6 @@ In the following sections, you'll see many commands prefixed with `./`, or paths
 If you're using the Windows _Command Prompt_, then you'll need to replace `/` with `\` (back-slash) for these commands and paths to work as expected.
 
 On Windows _Powershell_, these substitutions are not required.
-
-## Known Issues
-
-A few notes to help you avoid any hiccups while implementing the programming challenge:
-
-1. If you are on Windows, you might have difficulty getting the tests to pass because of newline UTF encoding issues. If you get stuck, please [refer to the thread here](https://github.com/nseadlc-2020/package-todo-cli-task/issues/12).
-
-2. The tests can fail between 12am and 5.30am (early morning IST). This is because the test parses the date from your system time in UTC format, while in certain programming languages the date and time functions use the local timezone (IST). Accounting for this in the tests will make it more complex and need extra dependencies, so we have kept it intentionally simple. So if you run into this specific problem, you can submit your code as is with the transient date mismatch, or you can change your code to use UTC. Either options are fine.
-
-3. In Windows machines, the `make` command might not exist and can prevent you from running the tests. This can be fixed [by using WSL, or installing MinGW, among other options](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows).
 
 ## Specification
 
